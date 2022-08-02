@@ -1,0 +1,86 @@
+<!-- Coding Challenge by Boolean -
+l'esercizio svolto è di Buzzigoli Nicola -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
+    <title>Test:Coding Challenge - nicolabz</title>
+  </head>
+
+  <body>
+
+    <div class="contenitore-riquadro">
+      <div class="contenitore-info">
+        <!-- intestazione: Logo e Titolo -->
+        <header>
+          <img src="logo.png" alt="LIMlogo">
+          <span><strong>Taking Booleaners from A to B</strong></span>
+        </header>
+
+        <!-- funzioni monopattino -->
+        <nav>    <!-- qui <nav> è display: block; -->
+          <button type="button1" name="button">Prenota</button>
+          <button type="button2" name="button">Termina Prenotazione</button>
+          <button type="button3" name="button">Accendi Luci</button>
+        </nav>
+
+        <br>
+
+        <!-- Sezione info monopattini -->
+        <main>
+          <!-- Monopattino 1 -->
+          <!--diviso in: USER(utente) -- POSIZIONE -- STATO BATTERIA -->
+          <div class="scooter uno">
+            <div class="user">
+              <input type="checkbox">
+              <span><strong>Monopattino Gino22</strong></span>
+            </div>
+
+            <div class="posizione">
+              <span>Via Guadalmetri - a 220 metri da te</span>
+            </div>
+
+            <span id="stato-carica">Stato carica:</span>
+            <div class="stato-batteria"></div>
+          </div>
+
+          <!-- Monopattino 2 -->
+          <!--diviso in: USER(utente) -- POSIZIONE -- STATO BATTERIA -->
+          <div class="scooter due">
+            <div class="user">
+              <input type="checkbox">
+              <span><strong>Monopattino Mike24</strong></span>
+            </div>
+            <div class="posizione">
+              <span>Via Riccardoni - a 420 metri da te</span>
+            </div>
+            <span id="stato-carica">Stato carica:</span>
+            <div class="stato-batteria"></div>
+          </div>
+
+          <!-- Monopattino 3 -->
+          <!--diviso in: USER(utente) -- POSIZIONE -- STATO BATTERIA -->
+          <div class="scooter tre">
+            <div class="user">
+              <input type="checkbox">
+              <span><strong>Monopattino Fede154</strong></span>
+            </div>
+            <div class="posizione">
+              <span>Via Mentarini - a 490 metri da te</span>
+            </div>
+            <span id="stato-carica">Stato carica:</span>
+            <div class="stato-batteria"></div>
+          </div>
+        </main>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>

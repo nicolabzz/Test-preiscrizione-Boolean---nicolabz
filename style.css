@@ -1,0 +1,103 @@
+/*-- Coding Challenge by Boolean -
+l'esercizio svolto è di Buzzigoli Nicola */
+/* --------------------------------------------------------- */
+/* ---SFONDO PAGINA e CONTENITORI--- */
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+}
+
+.contenitore-riquadro{
+  background: rgba(0, 0, 0, 0.5);
+  width: 1200px;
+  height: 855px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 19px;
+  }
+
+div.contenitore-info{
+  margin: auto;
+  width: 995px;
+}
+
+/* --------------------------------------------------------- */
+/* ---<header>, INTESTAZIONE: LOGO e TITOLO--- */
+header > img{
+  display: block;
+  margin: auto;
+  width: 26%;
+  padding: 13px;
+  padding-top: 95px;
+}
+
+header > span{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 221, 0);
+  padding-bottom: 3px;
+}
+
+/* --------------------------------------------------------- */
+/* ---<nav>, BUTTONS funzioni monopattino--- */
+nav{
+  display: block;
+  background-color: lime;
+  text-align: center;
+  padding: 11px;
+}
+
+/* --------------------------------------------------------- */
+/* ---<main>, INFO MONOPATTINI e BATTERIE--- */
+main{
+  color: white;
+}
+
+/* info utente */
+.scooter > .user{
+  font-size: 25px;
+}
+
+/* info posizione scooter */
+.posizione{
+  font-size: 20px;
+  line-height: 1.7
+}
+.posizione:before{
+  content: '\0021A6';
+}
+
+/* info stato carica batterie --- batterie: UNO - DUE -TRE */
+#stato-carica{
+  font-size: large;
+}
+
+.stato-batteria{
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 3%;
+}
+
+.uno > .stato-batteria{
+  width: 380px;
+  background-color: rgb(245, 180, 83);
+}
+
+.due > .stato-batteria{
+  width: 600px;
+  background-color: rgb(30, 195, 30);
+}
+
+.tre > .stato-batteria{
+  width: 150px;
+  background-color: rgb(190, 65, 65);
+}
